@@ -26,7 +26,7 @@ Example	"better" → "better"	"better" → "good"
 📌 Overview
 This project implements a **robust NLP preprocessing pipeline** designed to clean and transform noisy real-world text into structured and meaningful tokens.
 
-The solution is built as part of an internship assessment and demonstrates handling of:
+The solution is built as demonstrates handling of:
 * Noisy text
 * Emojis
 * URLs

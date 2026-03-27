@@ -23,7 +23,8 @@ Approach	Rule-based cutting	Dictionary-based
 Output	May not be real word	Always meaningful word
 Example	"running" → "run"	"running" → "run"
 Example	"better" → "better"	"better" → "good"
-📌 Overview
+
+ Overview
 This project implements a **robust NLP preprocessing pipeline** designed to clean and transform noisy real-world text into structured and meaningful tokens.
 
 The solution is built as demonstrates handling of:

@@ -1,6 +1,6 @@
 # NLP--1-Build-a-Robust-NLP-Preprocessing-Engine-Advanced
 
-Task 1: Conceptual Understanding
+Conceptual Understanding
 1. Difference between "Love" and "love" in NLP
 In raw NLP, "Love" and "love" are treated as different tokens due to case sensitivity.
 This increases vocabulary size unnecessarily.

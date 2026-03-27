@@ -1,4 +1,28 @@
 # NLP--1-Build-a-Robust-NLP-Preprocessing-Engine-Advanced
+
+Task 1: Conceptual Understanding
+1. Difference between "Love" and "love" in NLP
+In raw NLP, "Love" and "love" are treated as different tokens due to case sensitivity.
+This increases vocabulary size unnecessarily.
+After normalization (lowercasing), both become the same → improves consistency.
+2. What happens if stopwords are not removed?
+The model may:
+Focus on irrelevant words (e.g., "the", "is", "and")
+Increase computational cost
+Reduce model performance due to noise
+3. Two real-world scenarios where removing stopwords is harmful
+Sentiment Analysis
+Example: "I am not happy"
+Removing "not" changes meaning completely
+Question Answering Systems
+Example: "What is the capital of France?"
+Removing "what" or "is" breaks sentence structure
+4. Difference between Stemming and Lemmatization
+Feature	Stemming	Lemmatization
+Approach	Rule-based cutting	Dictionary-based
+Output	May not be real word	Always meaningful word
+Example	"running" → "run"	"running" → "run"
+Example	"better" → "better"	"better" → "good"
 📌 Overview
 This project implements a **robust NLP preprocessing pipeline** designed to clean and transform noisy real-world text into structured and meaningful tokens.
 
